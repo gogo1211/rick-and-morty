@@ -1,0 +1,33 @@
+.list-heading {
+  font-size: 50px;
+  color: white;
+  position: fixed;
+  padding: 20px;
+  z-index: 100;
+  width: 100%;
+  background-color: #011c54;
+}
+
+.detail-heading {
+  font-size: 40px;
+  color: white;
+}
+
+.info {
+  text-align: left;
+  color: rgb(158, 158, 158);
+
+  .name {
+    font-size: 20px;
+    color: rgb(245, 245, 245);
+    margin: 10px;
+  }
+  .item {
+    display: flex;
+    justify-content: space-between;
+  }
+  .value {
+    color: rgb(255, 152, 0);
+    text-align: right;
+  }
+}
