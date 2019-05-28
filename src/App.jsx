@@ -6,7 +6,7 @@ import {
   Switch,
 } from 'react-router-dom';
 import { Provider } from 'react-redux';
-import store from './store/store';
+import store from './store';
 
 import CharacterListContainer from './containers/CharacterListContainer';
 import CharacterDetailContainer from './containers/CharacterDetailContainer';

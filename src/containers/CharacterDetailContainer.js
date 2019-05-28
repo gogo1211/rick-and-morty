@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 
 import CharacterDetailComponent from '../components/CharacterDetail';
-import { loadDetail } from '../store/actions';
+import { loadDetail } from '../actions';
 
 const mapStateToProps = ({ detail }) => detail;
 

@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 
 import CharacterListComponent from '../components/CharacterList';
-import { loadList } from '../store/actions';
+import { loadList } from '../actions';
 
 const mapStateToProps = ({ list }) => list;
 

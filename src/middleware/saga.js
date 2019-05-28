@@ -6,7 +6,7 @@ import {
   LOAD_DETAIL,
   loadDetailSuccess,
   loadDetailFailure,
-} from '../store/actions';
+} from '../actions';
 import {
   loadCharacterList,
   loadCharacterDetail,
